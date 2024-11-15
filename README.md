@@ -64,4 +64,27 @@ The study leverages the **PolitiFact dataset** from Arizona State University, wh
 - Random Forest demonstrated the best balance between precision and recall, followed closely by Logistic Regression.
 
 ## Project Structure
-├── data/ │ ├── FakeNewsContent/ # JSON files for fake news │ ├── RealNewsContent/ # JSON files for real news │ ├── News.txt # News ID mapping │ ├── User.txt # User ID mapping │ ├── PolitiFactNewsUser.txt # User-news interactions │ ├── PolitiFactUserUser.txt # User-user relationships │ └── FinalFeatures.csv # Consolidated features for ML models ├── src/ │ ├── data_preprocessing.py # Script for data cleaning and preprocessing │ ├── feature_engineering.py # Script for extracting features │ ├── model_training.py # Script for model training and evaluation │ ├── utils.py # Utility functions │ └── visualization.py # Visualization of results ├── notebooks/ │ └── exploratory_analysis.ipynb # EDA notebook ├── results/ │ ├── stratified_kfold_results.csv # Results of Stratified K-Fold Cross Validation │ ├── hyperparameter_tuning.csv # Results of Hyperparameter Tuning │ └── model_comparison.png # Comparison chart of model performance ├── requirements.txt # Required Python libraries ├── README.md # Project documentation └── LICENSE # License file
+├── data/
+│   ├── FakeNewsContent/          # JSON files for fake news
+│   ├── RealNewsContent/          # JSON files for real news
+│   ├── News.txt                  # News ID mapping
+│   ├── User.txt                  # User ID mapping
+│   ├── PolitiFactNewsUser.txt    # User-news interactions
+│   ├── PolitiFactUserUser.txt    # User-user relationships
+│   └── FinalFeatures.csv         # Consolidated features for ML models
+├── src/
+│   ├── data_preprocessing.py     # Script for data cleaning and preprocessing
+│   ├── feature_engineering.py    # Script for extracting features
+│   ├── model_training.py         # Script for model training and evaluation
+│   ├── utils.py                  # Utility functions
+│   └── visualization.py          # Visualization of results
+├── notebooks/
+│   └── exploratory_analysis.ipynb # EDA notebook
+├── results/
+│   ├── stratified_kfold_results.csv # Results of Stratified K-Fold Cross Validation
+│   ├── hyperparameter_tuning.csv   # Results of Hyperparameter Tuning
+│   └── model_comparison.png        # Comparison chart of model performance
+├── requirements.txt              # Required Python libraries
+├── README.md                     # Project documentation
+└── LICENSE                       # License file
+
