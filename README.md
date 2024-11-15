@@ -37,7 +37,6 @@ The study leverages the **PolitiFact dataset** from Arizona State University, wh
 ## Methodology
 1. **Data Preprocessing**:
    - Text cleaning: Removal of HTML tags, special characters, and stopwords.
-   - Tokenization and lemmatization.
    - Handling missing data via imputation or exclusion.
 
 2. **Feature Engineering**:
@@ -64,6 +63,7 @@ The study leverages the **PolitiFact dataset** from Arizona State University, wh
 - Random Forest demonstrated the best balance between precision and recall, followed closely by Logistic Regression.
 
 ## Project Structure
+```bash
 ├── data/
 │   ├── FakeNewsContent/          # JSON files for fake news
 │   ├── RealNewsContent/          # JSON files for real news
@@ -87,4 +87,4 @@ The study leverages the **PolitiFact dataset** from Arizona State University, wh
 ├── requirements.txt              # Required Python libraries
 ├── README.md                     # Project documentation
 └── LICENSE                       # License file
-
+```
