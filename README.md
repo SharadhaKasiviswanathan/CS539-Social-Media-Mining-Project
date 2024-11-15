@@ -64,27 +64,23 @@ The study leverages the **PolitiFact dataset** from Arizona State University, wh
 
 ## Project Structure
 ```bash
-├── data/
-│   ├── FakeNewsContent/          # JSON files for fake news
-│   ├── RealNewsContent/          # JSON files for real news
-│   ├── News.txt                  # News ID mapping
-│   ├── User.txt                  # User ID mapping
-│   ├── PolitiFactNewsUser.txt    # User-news interactions
-│   ├── PolitiFactUserUser.txt    # User-user relationships
-│   └── FinalFeatures.csv         # Consolidated features for ML models
-├── src/
-│   ├── data_preprocessing.py     # Script for data cleaning and preprocessing
-│   ├── feature_engineering.py    # Script for extracting features
-│   ├── model_training.py         # Script for model training and evaluation
-│   ├── utils.py                  # Utility functions
-│   └── visualization.py          # Visualization of results
+CS539-Social-Media-Mining-Project/
+├── Datasets/
+│   ├── AvgClusteringCoeff.csv          # Average clustering coefficient data
+│   ├── AvgEigenvectorCentrality.csv    # Eigenvector centrality metrics
+│   ├── FinalFeatures.csv               # Consolidated features for ML models
+│   ├── JSON_News.csv                   # Raw news data in JSON format
+│   ├── Merged_JSON_News.csv            # Merged news JSON data
+│   ├── News_User.csv                   # User-news interactions
+│   ├── User_User.csv                   # User-user relationships
+│   └── sample.txt                      # Sample data file             
 ├── notebooks/
-│   └── exploratory_analysis.ipynb # EDA notebook
-├── results/
-│   ├── stratified_kfold_results.csv # Results of Stratified K-Fold Cross Validation
-│   ├── hyperparameter_tuning.csv   # Results of Hyperparameter Tuning
-│   └── model_comparison.png        # Comparison chart of model performance
-├── requirements.txt              # Required Python libraries
-├── README.md                     # Project documentation
-└── LICENSE                       # License file
+│   └── exploratory_analysis.ipynb      # EDA notebook
+│   └── main_project.ipynb              # Project Code 
+└── README.md                           # Project documentation
 ```
+## Contributors:
+- **Sulbha Malviya**  
+- **Atharva Pargaonkar**  
+- **Sharadha Kasiviswanathan**
+
